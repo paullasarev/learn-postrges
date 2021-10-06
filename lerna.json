@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "packages/postgres",
+    "packages/server-nest",
+    "packages/client-react"
+  ],
+  "version": "0.0.0"
+}

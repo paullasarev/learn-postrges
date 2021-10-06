@@ -1,0 +1,85 @@
+{
+  "name": "learn-postgres",
+  "version": "1.0.0",
+  "description": "# learn-postrges",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lerna run start:dev --stream",
+    "build": "lerna run build --stream --concurrency=1",
+    "clean": "npx rimraf ./.next",
+    "install": "lerna bootstrap",
+    "test": "lerna run test --stream --concurrency=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paullasarev/learn-postrges.git"
+  },
+  "keywords": [
+    "learn",
+    "postgres",
+    "sequelize"
+  ],
+  "author": "paullasarev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paullasarev/learn-postrges/issues"
+  },
+  "homepage": "https://github.com/paullasarev/learn-postrges#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0",
+    "@nestjs/platform-express": "^7.0.0",
+    "core-js": "^3.6.5",
+    "lerna": "^4.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-is": "17.0.2",
+    "react-router-dom": "5.2.0",
+    "reflect-metadata": "^0.1.13",
+    "regenerator-runtime": "0.13.7",
+    "rxjs": "~6.6.3",
+    "styled-components": "5.2.1",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/schematics": "^7.0.0",
+    "@nestjs/testing": "^7.0.0",
+    "@nrwl/cli": "latest",
+    "@nrwl/cypress": "12.9.0",
+    "@nrwl/eslint-plugin-nx": "12.9.0",
+    "@nrwl/jest": "^12.9.0",
+    "@nrwl/linter": "12.9.0",
+    "@nrwl/nest": "^12.9.0",
+    "@nrwl/node": "12.9.0",
+    "@nrwl/react": "12.9.0",
+    "@nrwl/tao": "latest",
+    "@nrwl/web": "12.9.0",
+    "@nrwl/workspace": "latest",
+    "@testing-library/react": "11.2.6",
+    "@testing-library/react-hooks": "7.0.1",
+    "@types/jest": "26.0.24",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "@types/react-is": "17.0.0",
+    "@types/react-router-dom": "5.1.7",
+    "@types/styled-components": "5.1.9",
+    "@typescript-eslint/eslint-plugin": "~4.28.3",
+    "@typescript-eslint/parser": "~4.28.3",
+    "babel-jest": "27.0.6",
+    "babel-plugin-styled-components": "1.10.7",
+    "cypress": "^8.3.0",
+    "eslint": "7.22.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "jest": "27.0.3",
+    "ts-jest": "27.0.3",
+    "typescript": "4.2.4"
+  }
+}
